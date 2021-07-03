@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="register-form"> 
+    <form action="/" method="GET">
+       
+        <h1><span>Register</span></h1>  
+        <p>Create your account, it's free and only takes a minute.</p>
+    
+         
+        <div>
+        <input 
+            id="first-name"
+            type="text"
+            name="first-name"
+            placeholder="First Name"
+            pattern="^[a-z0-9_-]{3,15}$"
+            required
+            autofocus>
+            
+            <input 
+            id="last-name"
+            type="text"
+            name="last-name"
+            placeholder="Last Name"
+            pattern="^[a-z0-9_-]{3,15}$"
+            required>
+        </div>
+            
+            <input 
+            id="email"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required>
+
+            <input 
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+            pattern="^[A-Za-z0-9_.]{7,16}$"
+            required>
+
+            <input 
+            id="confirm-password"
+            type="password"
+            name="confirm-password"
+            placeholder="Confirm password"
+            pattern="^[A-Za-z0-9_.]{7,16}$"
+            required>
+
+            <label>
+            <input 
+                id="terms"
+                type="checkbox"
+                name="terms"
+                value="agree">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>
+
+            </label>
+
+            <button id="button">Register Now</button>
+        
+    
+    </form>
+</div>
+</body>
+</html>

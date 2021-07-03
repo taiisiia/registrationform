@@ -1,0 +1,73 @@
+.register-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 450px;
+    width: 80%;
+    min-width: 300px;
+
+    max-height: 600px;
+    height: 100%;
+    min-height: 500px ;
+
+    background-color: #f2f3f7;
+    font-family: sans-serif; 
+}
+h1 {
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.1em;
+    margin: 5px 0 20px;
+}
+
+span {
+    
+    background-color: #f2f3f7;
+    padding: 0 15px;
+
+}
+ p { 
+     margin: 15px;
+     text-align: center;
+ }
+
+
+#first-name, #last-name {
+    width: 150px;
+    padding: 10px 5px;
+}
+
+#first-name {
+    margin-right: 10px;
+}
+
+#email, #password, #confirm-password, #button{
+    width:330px;
+    margin-top: 15px;
+    padding: 10px 5px;
+}
+
+#terms {
+    margin: 20px 5px 15px -20px;
+}
+
+#button {
+    background-color: #52aa53;
+    color:white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: #518c5a 2px solid;
+}
+
+a {
+    color: #52aa53;
+    text-decoration: none;
+}
