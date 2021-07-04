@@ -21,7 +21,7 @@
             type="text"
             name="first-name"
             placeholder="First Name"
-            pattern="^[a-z0-9_-]{3,15}$"
+            pattern="^[A-Za-z]{3,15}$"
             required
             autofocus>
             
@@ -30,7 +30,7 @@
             type="text"
             name="last-name"
             placeholder="Last Name"
-            pattern="^[a-z0-9_-]{3,15}$"
+            pattern="^[A-Za-z]{3,15}$"
             required>
         </div>
             
@@ -46,7 +46,7 @@
             type="password"
             name="password"
             placeholder="Password"
-            pattern="^[A-Za-z0-9_.]{7,16}$"
+            pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$"
             required>
 
             <input 
@@ -54,7 +54,7 @@
             type="password"
             name="confirm-password"
             placeholder="Confirm password"
-            pattern="^[A-Za-z0-9_.]{7,16}$"
+            pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$"
             required>
 
             <label>
@@ -62,8 +62,9 @@
                 id="terms"
                 type="checkbox"
                 name="terms"
+                required
                 value="agree">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>
-
+                
             </label>
 
             <button id="button">Register Now</button>

@@ -37,6 +37,7 @@ span {
  p { 
      margin: 15px;
      text-align: center;
+     font-size: 15px;
  }
 
 
@@ -78,6 +79,7 @@ a {
         width: 100%;
         min-width: 300px;
     }
+    
 
     #first-name, #last-name {
         width: 120px;
